@@ -163,7 +163,7 @@ function navHighlighter() {
 
 function copyToClipboard() {
     var inputc = document.body.appendChild(document.createElement("input"));
-    inputc.value = 'http://127.0.0.1:5500/';
+    inputc.value = 'https://subrata-rajak.github.io/Personal-Portfolio/';
     inputc.focus();
     inputc.select();
     document.execCommand('copy');
