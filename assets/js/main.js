@@ -163,7 +163,7 @@ function navHighlighter() {
 
 function copyToClipboard() {
     var inputc = document.body.appendChild(document.createElement("input"));
-    inputc.value = 'https://subrata-rajak.github.io/Personal-Portfolio/';
+    inputc.value = 'https://subrata-portfolio.netlify.app/';
     inputc.focus();
     inputc.select();
     document.execCommand('copy');
