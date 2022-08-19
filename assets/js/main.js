@@ -170,3 +170,7 @@ function copyToClipboard() {
     inputc.parentNode.removeChild(inputc);
     alert("URL Copied.");
 }
+
+function send_message() {
+    alert("Haven't implemented the feature yet. Sorry for my inconvenience, reach out to me via the information given or via my socials. Thank You!!")
+}
