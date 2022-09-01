@@ -161,6 +161,7 @@ function navHighlighter() {
     })
 }
 
+/*=============== Share button logic ===============*/
 function copyToClipboard() {
     var inputc = document.body.appendChild(document.createElement("input"));
     inputc.value = 'https://subrata-portfolio.netlify.app/';
@@ -171,6 +172,7 @@ function copyToClipboard() {
     alert("URL Copied.");
 }
 
+/*=============== contact page send message button logic ===============*/
 function send_message() {
     alert("Haven't implemented the feature yet. Sorry for my inconvenience, reach out to me via the information given or via my socials. Thank You!!")
 }
